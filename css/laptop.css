@@ -1,3 +1,15 @@
+/* ====================== Restaurant Filtering ====================== */
+
+.filter-options select {
+  width: 300px;
+}
+
+/* ====================== Restaurant Listing ====================== */
+
+#restaurants-list li {
+  width: 300px;
+}
+
 /* ====================== Restaurant Details ====================== */
 .inside header {
   position: fixed;

@@ -1,0 +1,11 @@
+/* ====================== Restaurant Filtering ====================== */
+
+.filter-options select {
+  width: 250px;
+}
+
+/* ====================== Restaurant Listing ====================== */
+
+#restaurants-list li {
+  width: 340px;
+}
