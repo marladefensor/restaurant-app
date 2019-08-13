@@ -43,13 +43,14 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   min-height: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 #footer {
   background-color: #444;
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  padding: 25px 0 25px 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -72,7 +73,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 #breadcrumb {
-    padding: 10px 40px 16px;
+    padding: 10px 0 16px;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
@@ -117,6 +118,10 @@ nav h1 a {
   width: 100%;
 }
 /* ====================== Restaurant Filtering ====================== */
+
+#restaurants {
+	width: 100%;
+}
 .filter-options {
   width: 100%;
   height: auto;
