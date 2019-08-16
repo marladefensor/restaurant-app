@@ -1,3 +1,8 @@
+/* ====================== Navigation ====================== */
+nav h1 a {
+  font-size: 3vw;
+}
+
 /* ====================== Restaurant Filtering ====================== */
 
 .filter-options select {
@@ -7,5 +12,5 @@
 /* ====================== Restaurant Listing ====================== */
 
 #restaurants-list li {
-  width: 320px;
+  width: 22vw;
 }

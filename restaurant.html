@@ -35,32 +35,35 @@
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container">
+    <section id="map-container" role="application" aria-label="Map of restaurant location">
       <div id="map"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
-    <section id="restaurant-container">
-      <div>
-        <h1 id="restaurant-name"></h1>
-      </div>
-      <div class="restaurant-items">
-        <span id="section1">
-          <img id="restaurant-img">
-          <p id="restaurant-cuisine"></p>
-        </span>
-        <span id="section2">
-          <p id="restaurant-address"></p>
-          <table id="restaurant-hours"></table>
-        </span>
-      </div>
-    </section>
-    <!-- end restaurant -->
-    <!-- Beginning reviews -->
-    <section id="reviews-container">
-      <ul id="reviews-list"></ul>
-    </section>
-    <!-- End reviews -->
+    <div class="restaurantReviews">
+      <section id="restaurant-container">
+        <div>
+          <h1 id="restaurant-name"></h1>
+        </div>
+        <div class="restaurant-items">
+          <span id="section1">
+            <img id="restaurant-img">
+            <p id="restaurant-cuisine"></p>
+          </span>
+          <span id="section2">
+            <p id="restaurant-address"></p>
+            <table id="restaurant-hours"></table>
+          </span>
+        </div>
+      </section>
+      <!-- end restaurant -->
+      <!-- Beginning reviews -->
+      <section id="reviews-container">
+        <ul id="reviews-list"></ul>
+      </section>
+      <!-- End reviews -->
+    </div>
+
   </main>
   <!-- End main -->
 

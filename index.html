@@ -5,7 +5,6 @@
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
 
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" media="screen and (min-width:375px)" href="css/phone.css">
   <link rel="stylesheet" media="screen and (min-width:768px)" href="css/tablet.css">
   <link rel="stylesheet" media="screen and (min-width:1024px)" href="css/laptop.css">
   <link rel="stylesheet" media="screen and (min-width:1440px)" href="css/laptopL.css">
@@ -22,10 +21,11 @@
     <nav>
       <h1><a href="/" id="title">Restaurant Reviews</a></h1>
     </nav>
+    <div id="skip"><a href="#restaurants">Skip to Main Content</a></div>
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
+    <section id="map-container" role="application" aria-label="Map of restaurant locations">
       <div id="map"></div>
     </section>
     <section id="restaurants">
